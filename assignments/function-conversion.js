@@ -43,3 +43,12 @@ console.log(subtract(1,2));
 //   return num * 3;
 // });
 // console.log(triple);
+
+// exampleArray = [1,2,3,4];
+// const triple = exampleArray.map(function (num) { return num * 3;});
+// console.log(triple);
+
+exampleArray = [1,2,3,4];
+let tripfunc = (num) => num * 3;
+const triple = exampleArray.map(tripfunc);
+console.log(triple);
