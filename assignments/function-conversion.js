@@ -48,7 +48,6 @@ console.log(subtract(1,2));
 // const triple = exampleArray.map(function (num) { return num * 3;});
 // console.log(triple);
 
-
 //working version function outside
 // exampleArray = [1,2,3,4];
 // let tripfunc = (num) => num * 3;
